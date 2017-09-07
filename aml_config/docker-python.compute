@@ -10,7 +10,7 @@ baseDockerImage: "microsoft/mmlspark:plus-0.7.dev7_2.gcfbc920"
 # performance and to enable the automatic mounting of the shared directory.
 # This Docker features isn't completely stable yet on Windows, and so it's
 # disabled by default to ensure compatibility.
-sharedVolumes: true
+sharedVolumes: false
 
 # The $AZUREML_NATIVE_SHARE_DIRECTORY environment variable inside runs points
 # at a persistent directory that is shared between all runs of the same project
