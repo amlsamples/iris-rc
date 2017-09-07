@@ -15,7 +15,7 @@ from azureml.dataprep.package import run
 from iris_plot_lib import plot_iris
 
 # initialize the logger
-run_logger = data_collector.get_azureml_logger() 
+run_logger = get_azureml_logger() 
 
 # create the outputs folder
 os.makedirs('./outputs', exist_ok=True)
