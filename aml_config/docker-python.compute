@@ -16,4 +16,4 @@ sharedVolumes: false
 # at a persistent directory that is shared between all runs of the same project
 # on the same target. This specifies the base path for those directories.
 # Note that this is not available if sharedVolumes is false.
-nativeSharedDirectory: "~/.azureml/share/"
+# nativeSharedDirectory: "~/.azureml/share/"
