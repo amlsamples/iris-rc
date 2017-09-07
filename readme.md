@@ -11,6 +11,9 @@ If you want to try quickly from the command line window launched from the _File_
 
 Kick-off many local runs to observe the metrics emitted by each run in a graph.
 ```
+# Only needed if you don't have matplotlib installed
+$ pip install matplotlib
+
 $ python run.py
 ```
 
