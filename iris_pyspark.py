@@ -13,7 +13,7 @@ from pyspark.ml.feature import *
 from azureml.logging import get_azureml_logger
 
 # initialize logger
-run_logger = data_collector.get_azureml_logger() 
+run_logger = get_azureml_logger() 
 
 # start Spark session
 spark = pyspark.sql.SparkSession.builder.appName('Iris').getOrCreate()
